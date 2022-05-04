@@ -3,16 +3,23 @@
     background-color: darkblue;
     display: flex;
     justify-content: space-between;
-    padding: 80px;
+    padding: 40px;
+    height: 230px;
 }
 
-h1 {
-    color: white;
-}
-
-h2 a{
-    color: white;
-    justify-content: space-between;
+.flexbox-item {
     
-    padding: 25px;
+}
+
+.flexbox-item-1 {
+    color: white;
+}
+
+.flexbox-item-2 a {
+    color: white;
+    margin: 40px;
+}
+
+h2 {
+    margin: 235px;
 }
