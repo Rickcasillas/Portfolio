@@ -1,0 +1,18 @@
+.main-header {
+    color: white;
+    background-color: darkblue;
+    display: flex;
+    justify-content: space-between;
+    padding: 80px;
+}
+
+h1 {
+    color: white;
+}
+
+h2 a{
+    color: white;
+    justify-content: space-between;
+    
+    padding: 25px;
+}
