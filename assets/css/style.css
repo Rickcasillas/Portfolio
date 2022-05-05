@@ -1,25 +1,33 @@
-.main-header {
-    color: white;
-    background-color: darkblue;
+header {
     display: flex;
+    margin: 0px;
+    border: 3px solid black;
+    background-color: blue;
     justify-content: space-between;
-    padding: 40px;
-    height: 230px;
-}
-
-.flexbox-item {
-    
 }
 
 .flexbox-item-1 {
+    display: flex;
+    margin: 25px;
     color: white;
+}
+
+.flexbox-item-2 {
+    display: flex;
+    margin: 50px;
+    width: 400px;
+    padding-right: 5%;
 }
 
 .flexbox-item-2 a {
     color: white;
-    margin: 40px;
+    font-size: 20px;
 }
 
-h2 {
-    margin: 235px;
+.flexbox-item-3 {
+    display: flex;
+    border: 3px solid black;
+    min-width: auto;
+    justify-content: flex-end;
+    padding-right: 10%;
 }
