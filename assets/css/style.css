@@ -1,6 +1,5 @@
 header {
     display: flex;
-    background-color: darkblue;  
     justify-content: space-between;
     right: 5%;
     margin-top: 1%;
@@ -9,6 +8,18 @@ header {
 
 header a {
     color: white;
+}
+
+nav {
+    display: inline-block;
+    background-image: url("https://www.teahub.io/photos/full/256-2565031_software-development.jpg");
+    min-height: 200px;
+    width: 100%;
+    color: white;
+    font-weight: bolder;
+    font-size: 50px;
+    text-align: center;
+    text-align: center;
 }
 
 .flexbox-container-1 {
@@ -67,10 +78,36 @@ header a {
     width: 2200px;
     margin: 10px;
     border: 3px solid black;
+    background-image: url("https://media.istockphoto.com/photos/processor-chip-tech-environment-blockchain-concept-picture-id1347310666");   
 }
 
-.flexbox-item-2b ul{
-    background-color: white;
+.flexbox-item-2c {
+    display: flex;
+    width: 2200px;
+    margin: 10px;
+    border: 3px solid black;
+    background-image: url("https://img.freepik.com/free-vector/characters-people-holding-website-icons-illustration_53876-58966.jpg?w=1380&t=st=1652051208~exp=1652051808~hmac=0c02abc97de071fe6d37f848fcb15705b1dd13080e4dbeca427aa58c290baf09");
+}
+
+.flexbox-item-2d {
+    display: flex;
+    width: 2200px;
+    margin: 10px;
+    border: 3px solid black;
+    background-image: url("https://img.freepik.com/free-vector/binary-code-stream-digital-data-codes-hacker-coding-crypto-matrix-numbers-flow-digitally-blue-screen-abstract-background_102902-991.jpg?w=1800");
+}
+
+.flexbox-item-2e {
+    display: flex;
+    width: 2200px;
+    margin: 10px;
+    border: 3px solid black;
+    background-image: url("https://img.freepik.com/free-photo/desktop-source-code-wallpaper-by-computer-language-with-coding-programming_33771-595.jpg?w=1800");
+}
+
+.flexbox-container-3 {
+    color: orange;
+    font-weight: bolder;
 }
 
 .flexbox-container-4 {
